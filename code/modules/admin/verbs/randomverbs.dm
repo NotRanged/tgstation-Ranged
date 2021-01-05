@@ -28,7 +28,7 @@
 	if(!check_rights(R_ADMIN))
 		return
 
-	message_admins("[key_name_admin(src)] has started answering [ADMIN_LOOKUPFLW(M)]'s prayer.")
+	message_admins("[key_name_admin(src)] is sending a Subtle Message to [ADMIN_LOOKUPFLW(M)].")
 	var/msg = input("Message:", text("Subtle PM to [M.key]")) as text|null
 
 	if(!msg)
