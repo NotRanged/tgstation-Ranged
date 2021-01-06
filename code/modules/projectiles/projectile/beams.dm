@@ -137,7 +137,7 @@
 	icon_state = "emitter"
 	damage = 30
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/green_laser
-	tracer_type = /obj/effect/projectile/tracer/
+	tracer_type = /obj/effect/projectile/tracer/emitter
 	light_color = LIGHT_COLOR_GREEN
 	wound_bonus = -40
 	bare_wound_bonus = 70
